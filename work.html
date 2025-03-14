@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AllCreates</title>
+    <link rel="stylesheet" href="work.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="logo">AllCreates</div>
+        <ul class="nav-links">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="work.html">Services</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <div class="az"></div>
+ 
+    
+        <div class="container fade-in">
+            <h2 class="ac">Click any section to see</h2><h1 class="ac">My Work</h1>
+    
+            <div class="category-container">
+                <div class="category yellow" onclick="openGallery('graphic')">
+                    <h2>Graphic Design</h2>
+                  
+                </div>
+                <div class="category pink" onclick="openGallery('web')">
+                    <h2>Web Development</h2>
+                </div>
+                <div class="category blue" onclick="openGallery('video')">
+                    <h2>Video Editing</h2>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Modal Gallery -->
+        <div id="galleryModal" class="modal">
+            <span class="close" onclick="closeGallery()">&times;</span>
+            <div class="gallery-content">
+                <div id="galleryImages"></div>
+            </div>
+        </div>
+    
+
+
+    <div class="logo pop-in">
+        <img src="https://allcreates.in/wp-content/uploads/2024/09/untitled-design.png?w=49&h=46" alt="" class="glow">
+
+        <h2 class="glow-text pop-in">AllCreates</h2>
+    </div>
+
+    <div class="info-boxes">
+        <div class="box pop-in">
+            <h3>Location</h3>
+            <p>Bikapur, Ayodhya, 224207</p>
+        </div>
+        <div class="box pop-in">
+            <h3>Hours</h3>
+            <p>Monday—Friday <br> 9am — 6pm</p>
+        </div>
+        <div class="box pop-in ">
+            <h3>Contact</h3>
+            <p>+91-78005-82481 <br> help@allcreates.in</p>
+        </div>
+    </div>
+    </div>
+<div class="az"></div>
+</body>
+<script src="work.js"></script>
+<script src="script.js"></script>
+
+</html>
